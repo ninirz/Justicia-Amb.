@@ -157,7 +157,6 @@ struct ContentView: View {
                 .buttonStyle(.borderedProminent)
                 
                 Button("Search"){
-                    print("HEY HEY")
                     isSearching = true
                 }
                 .buttonStyle(.borderedProminent)
