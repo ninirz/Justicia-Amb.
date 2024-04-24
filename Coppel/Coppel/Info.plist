@@ -4,10 +4,9 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Inter-Regular.ttf</string>
+		<string>Poppins-Bold</string>
+		<string>CircularStd.ttf</string>
 		<string>Poppins-Bold.ttf</string>
 	</array>
-	<key>Poppins-Bold.ttf</key>
-	<string></string>
 </dict>
 </plist>

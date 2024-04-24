@@ -14,7 +14,6 @@ struct Habilidad {
     var score : Int
 }
 
-
 var habilidades : [Habilidad] = [
     Habilidad(name: "Self Confindese", description: "Pannnn ", score: 18),
     Habilidad(name: "Resilence", description: "Pannn", score: 19),

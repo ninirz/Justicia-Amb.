@@ -16,9 +16,6 @@
 		060347002BD8C3480062DE12 /* shapes.riv in Resources */ = {isa = PBXBuildFile; fileRef = 060346F82BD8C3480062DE12 /* shapes.riv */; };
 		060347052BD8C5530062DE12 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060347042BD8C5530062DE12 /* Course.swift */; };
 		060347072BD8CA010062DE12 /* HCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060347062BD8CA010062DE12 /* HCardView.swift */; };
-		0603470C2BD8CB280062DE12 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 060347082BD8CB280062DE12 /* Inter-Regular.ttf */; };
-		0603470D2BD8CB280062DE12 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 060347092BD8CB280062DE12 /* Inter-SemiBold.ttf */; };
-		0603470E2BD8CB280062DE12 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0603470A2BD8CB280062DE12 /* Poppins-Bold.ttf */; };
 		060347102BD8CC1E0062DE12 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603470F2BD8CC1E0062DE12 /* CustomFont.swift */; };
 		060347122BD8D1410062DE12 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060347112BD8D1410062DE12 /* TabBar.swift */; };
 		060347142BD8D20D0062DE12 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060347132BD8D20D0062DE12 /* LoginView.swift */; };
@@ -31,6 +28,7 @@
 		067414962BD97E4000E934B2 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067414952BD97E4000E934B2 /* Vertex.swift */; };
 		0674149A2BD98CFB00E934B2 /* VCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067414992BD98CFB00E934B2 /* VCardView.swift */; };
 		0674149C2BD98F7A00E934B2 /* Habilidad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0674149B2BD98F7A00E934B2 /* Habilidad.swift */; };
+		067414A42BD99F0000E934B2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067414A32BD99F0000E934B2 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,9 +41,6 @@
 		060346F82BD8C3480062DE12 /* shapes.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = shapes.riv; sourceTree = "<group>"; };
 		060347042BD8C5530062DE12 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		060347062BD8CA010062DE12 /* HCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCardView.swift; sourceTree = "<group>"; };
-		060347082BD8CB280062DE12 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
-		060347092BD8CB280062DE12 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
-		0603470A2BD8CB280062DE12 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		0603470F2BD8CC1E0062DE12 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		060347112BD8D1410062DE12 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		060347132BD8D20D0062DE12 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -59,6 +54,9 @@
 		067414952BD97E4000E934B2 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
 		067414992BD98CFB00E934B2 /* VCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCardView.swift; sourceTree = "<group>"; };
 		0674149B2BD98F7A00E934B2 /* Habilidad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habilidad.swift; sourceTree = "<group>"; };
+		067414A12BD99B4700E934B2 /* CircularStd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CircularStd.ttf; sourceTree = "<group>"; };
+		067414A22BD99D3300E934B2 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		067414A32BD99F0000E934B2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +98,7 @@
 				060347132BD8D20D0062DE12 /* LoginView.swift */,
 				0603470F2BD8CC1E0062DE12 /* CustomFont.swift */,
 				060347172BD8DA8B0062DE12 /* CoursesView.swift */,
+				067414A32BD99F0000E934B2 /* ProfileView.swift */,
 				0603471C2BD900960062DE12 /* CourseView.swift */,
 				0603470B2BD8CB280062DE12 /* Fonts */,
 				060346F92BD8C3480062DE12 /* RiveAssets */,
@@ -153,9 +152,8 @@
 		0603470B2BD8CB280062DE12 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				060347082BD8CB280062DE12 /* Inter-Regular.ttf */,
-				060347092BD8CB280062DE12 /* Inter-SemiBold.ttf */,
-				0603470A2BD8CB280062DE12 /* Poppins-Bold.ttf */,
+				067414A22BD99D3300E934B2 /* Poppins-Bold.ttf */,
+				067414A12BD99B4700E934B2 /* CircularStd.ttf */,
 			);
 			name = Fonts;
 			path = "../../../Hackathon/SwiftUI Animations/Xcode Final/AnimatedApp/Fonts";
@@ -210,6 +208,7 @@
 			mainGroup = 060346D32BD8BA740062DE12;
 			packageReferences = (
 				060346ED2BD8C1AB0062DE12 /* XCRemoteSwiftPackageReference "rive-ios" */,
+				0674149D2BD998C100E934B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 060346DD2BD8BA740062DE12 /* Products */;
 			projectDirPath = "";
@@ -227,11 +226,8 @@
 			files = (
 				060346E72BD8BA750062DE12 /* Preview Assets.xcassets in Resources */,
 				060346FE2BD8C3480062DE12 /* icons.riv in Resources */,
-				0603470D2BD8CB280062DE12 /* Inter-SemiBold.ttf in Resources */,
 				060347002BD8C3480062DE12 /* shapes.riv in Resources */,
 				060346E42BD8BA750062DE12 /* Assets.xcassets in Resources */,
-				0603470E2BD8CB280062DE12 /* Poppins-Bold.ttf in Resources */,
-				0603470C2BD8CB280062DE12 /* Inter-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +247,7 @@
 				0603471F2BD909280062DE12 /* TabBarItem.swift in Sources */,
 				067414962BD97E4000E934B2 /* Vertex.swift in Sources */,
 				060347142BD8D20D0062DE12 /* LoginView.swift in Sources */,
+				067414A42BD99F0000E934B2 /* ProfileView.swift in Sources */,
 				0603471D2BD900960062DE12 /* CourseView.swift in Sources */,
 				0603471A2BD8E36F0062DE12 /* ContentView.swift in Sources */,
 				067414942BD979B400E934B2 /* QuizView.swift in Sources */,
@@ -473,6 +470,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 5.11.1;
+			};
+		};
+		0674149D2BD998C100E934B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
