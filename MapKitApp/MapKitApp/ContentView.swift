@@ -157,7 +157,6 @@ struct ContentView: View {
                 .buttonStyle(.borderedProminent)
                 
                 Button("Search"){
-                    print("HEY HEY")
                     isSearching = true
                 }
                 .buttonStyle(.borderedProminent)
@@ -176,8 +175,8 @@ extension MKCoordinateRegion: Equatable {
             return lhs.center.latitude == rhs.center.latitude && lhs.center.longitude == rhs.center.longitude && rhs.span.latitudeDelta == lhs.span.latitudeDelta && lhs.span.longitudeDelta == rhs.span.longitudeDelta
         }
     
+    
+    //Hllo
+    
 }
 
-#Preview {
-    ContentView()
-}
