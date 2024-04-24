@@ -32,6 +32,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		060346B82BD8939A0062DE12 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		A58B122F2BD7FC1F003D5E3F = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				A58B123B2BD7FC1F003D5E3F /* tesitApp.swift */,
+				060346B82BD8939A0062DE12 /* Components */,
 				A58B123D2BD7FC1F003D5E3F /* ContentView.swift */,
 				A58B123F2BD7FC20003D5E3F /* Assets.xcassets */,
 				A58B12412BD7FC20003D5E3F /* Preview Content */,

@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060346E02BD8BA740062DE12 /* CoppelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060346DF2BD8BA740062DE12 /* CoppelApp.swift */; };
+		060346E22BD8BA740062DE12 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060346E12BD8BA740062DE12 /* HomeView.swift */; };
+		060346E42BD8BA750062DE12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 060346E32BD8BA750062DE12 /* Assets.xcassets */; };
+		060346E72BD8BA750062DE12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 060346E62BD8BA750062DE12 /* Preview Assets.xcassets */; };
+		060346EF2BD8C1AC0062DE12 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 060346EE2BD8C1AC0062DE12 /* RiveRuntime */; };
+		060346FE2BD8C3480062DE12 /* icons.riv in Resources */ = {isa = PBXBuildFile; fileRef = 060346F62BD8C3480062DE12 /* icons.riv */; };
+		060347002BD8C3480062DE12 /* shapes.riv in Resources */ = {isa = PBXBuildFile; fileRef = 060346F82BD8C3480062DE12 /* shapes.riv */; };
+		060347052BD8C5530062DE12 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060347042BD8C5530062DE12 /* Course.swift */; };
+		060347072BD8CA010062DE12 /* HCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060347062BD8CA010062DE12 /* HCardView.swift */; };
+		0603470C2BD8CB280062DE12 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 060347082BD8CB280062DE12 /* Inter-Regular.ttf */; };
+		0603470D2BD8CB280062DE12 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 060347092BD8CB280062DE12 /* Inter-SemiBold.ttf */; };
+		0603470E2BD8CB280062DE12 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0603470A2BD8CB280062DE12 /* Poppins-Bold.ttf */; };
+		060347102BD8CC1E0062DE12 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603470F2BD8CC1E0062DE12 /* CustomFont.swift */; };
+		060347122BD8D1410062DE12 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060347112BD8D1410062DE12 /* TabBar.swift */; };
+		060347142BD8D20D0062DE12 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060347132BD8D20D0062DE12 /* LoginView.swift */; };
+		060347182BD8DA8B0062DE12 /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060347172BD8DA8B0062DE12 /* CoursesView.swift */; };
+		0603471A2BD8E36F0062DE12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060347192BD8E36F0062DE12 /* ContentView.swift */; };
+		0603471D2BD900960062DE12 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603471C2BD900960062DE12 /* CourseView.swift */; };
+		0603471F2BD909280062DE12 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0603471E2BD909280062DE12 /* TabBarItem.swift */; };
+		060347212BD90CA30062DE12 /* CourseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060347202BD90CA30062DE12 /* CourseCardView.swift */; };
+		067414942BD979B400E934B2 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067414932BD979B400E934B2 /* QuizView.swift */; };
+		067414962BD97E4000E934B2 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067414952BD97E4000E934B2 /* Vertex.swift */; };
+		0674149A2BD98CFB00E934B2 /* VCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067414992BD98CFB00E934B2 /* VCardView.swift */; };
+		0674149C2BD98F7A00E934B2 /* Habilidad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0674149B2BD98F7A00E934B2 /* Habilidad.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		060346DC2BD8BA740062DE12 /* Coppel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coppel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		060346DF2BD8BA740062DE12 /* CoppelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoppelApp.swift; sourceTree = "<group>"; };
+		060346E12BD8BA740062DE12 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		060346E32BD8BA750062DE12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		060346E62BD8BA750062DE12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		060346F62BD8C3480062DE12 /* icons.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons.riv; sourceTree = "<group>"; };
+		060346F82BD8C3480062DE12 /* shapes.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = shapes.riv; sourceTree = "<group>"; };
+		060347042BD8C5530062DE12 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		060347062BD8CA010062DE12 /* HCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCardView.swift; sourceTree = "<group>"; };
+		060347082BD8CB280062DE12 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		060347092BD8CB280062DE12 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		0603470A2BD8CB280062DE12 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		0603470F2BD8CC1E0062DE12 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		060347112BD8D1410062DE12 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		060347132BD8D20D0062DE12 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		060347172BD8DA8B0062DE12 /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
+		060347192BD8E36F0062DE12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0603471B2BD8F9EB0062DE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0603471C2BD900960062DE12 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		0603471E2BD909280062DE12 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		060347202BD90CA30062DE12 /* CourseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCardView.swift; sourceTree = "<group>"; };
+		067414932BD979B400E934B2 /* QuizView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		067414952BD97E4000E934B2 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		067414992BD98CFB00E934B2 /* VCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCardView.swift; sourceTree = "<group>"; };
+		0674149B2BD98F7A00E934B2 /* Habilidad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habilidad.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		060346D92BD8BA740062DE12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060346EF2BD8C1AC0062DE12 /* RiveRuntime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060346D32BD8BA740062DE12 = {
+			isa = PBXGroup;
+			children = (
+				060346DE2BD8BA740062DE12 /* Coppel */,
+				060346DD2BD8BA740062DE12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		060346DD2BD8BA740062DE12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				060346DC2BD8BA740062DE12 /* Coppel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		060346DE2BD8BA740062DE12 /* Coppel */ = {
+			isa = PBXGroup;
+			children = (
+				0603471B2BD8F9EB0062DE12 /* Info.plist */,
+				060346DF2BD8BA740062DE12 /* CoppelApp.swift */,
+				060347192BD8E36F0062DE12 /* ContentView.swift */,
+				060346E12BD8BA740062DE12 /* HomeView.swift */,
+				067414932BD979B400E934B2 /* QuizView.swift */,
+				060347132BD8D20D0062DE12 /* LoginView.swift */,
+				0603470F2BD8CC1E0062DE12 /* CustomFont.swift */,
+				060347172BD8DA8B0062DE12 /* CoursesView.swift */,
+				0603471C2BD900960062DE12 /* CourseView.swift */,
+				0603470B2BD8CB280062DE12 /* Fonts */,
+				060346F92BD8C3480062DE12 /* RiveAssets */,
+				060346F12BD8C2C40062DE12 /* Components */,
+				060346F02BD8C2BC0062DE12 /* Model */,
+				060346E32BD8BA750062DE12 /* Assets.xcassets */,
+				060346E52BD8BA750062DE12 /* Preview Content */,
+			);
+			path = Coppel;
+			sourceTree = "<group>";
+		};
+		060346E52BD8BA750062DE12 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				060346E62BD8BA750062DE12 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		060346F02BD8C2BC0062DE12 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				060347042BD8C5530062DE12 /* Course.swift */,
+				0674149B2BD98F7A00E934B2 /* Habilidad.swift */,
+				067414952BD97E4000E934B2 /* Vertex.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		060346F12BD8C2C40062DE12 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				060347062BD8CA010062DE12 /* HCardView.swift */,
+				060347202BD90CA30062DE12 /* CourseCardView.swift */,
+				060347112BD8D1410062DE12 /* TabBar.swift */,
+				0603471E2BD909280062DE12 /* TabBarItem.swift */,
+				067414992BD98CFB00E934B2 /* VCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		060346F92BD8C3480062DE12 /* RiveAssets */ = {
+			isa = PBXGroup;
+			children = (
+				060346F62BD8C3480062DE12 /* icons.riv */,
+				060346F82BD8C3480062DE12 /* shapes.riv */,
+			);
+			path = RiveAssets;
+			sourceTree = "<group>";
+		};
+		0603470B2BD8CB280062DE12 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				060347082BD8CB280062DE12 /* Inter-Regular.ttf */,
+				060347092BD8CB280062DE12 /* Inter-SemiBold.ttf */,
+				0603470A2BD8CB280062DE12 /* Poppins-Bold.ttf */,
+			);
+			name = Fonts;
+			path = "../../../Hackathon/SwiftUI Animations/Xcode Final/AnimatedApp/Fonts";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		060346DB2BD8BA740062DE12 /* Coppel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060346EA2BD8BA750062DE12 /* Build configuration list for PBXNativeTarget "Coppel" */;
+			buildPhases = (
+				060346D82BD8BA740062DE12 /* Sources */,
+				060346D92BD8BA740062DE12 /* Frameworks */,
+				060346DA2BD8BA740062DE12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coppel;
+			packageProductDependencies = (
+				060346EE2BD8C1AC0062DE12 /* RiveRuntime */,
+			);
+			productName = Coppel;
+			productReference = 060346DC2BD8BA740062DE12 /* Coppel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		060346D42BD8BA740062DE12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					060346DB2BD8BA740062DE12 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 060346D72BD8BA740062DE12 /* Build configuration list for PBXProject "Coppel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 060346D32BD8BA740062DE12;
+			packageReferences = (
+				060346ED2BD8C1AB0062DE12 /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
+			productRefGroup = 060346DD2BD8BA740062DE12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				060346DB2BD8BA740062DE12 /* Coppel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		060346DA2BD8BA740062DE12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060346E72BD8BA750062DE12 /* Preview Assets.xcassets in Resources */,
+				060346FE2BD8C3480062DE12 /* icons.riv in Resources */,
+				0603470D2BD8CB280062DE12 /* Inter-SemiBold.ttf in Resources */,
+				060347002BD8C3480062DE12 /* shapes.riv in Resources */,
+				060346E42BD8BA750062DE12 /* Assets.xcassets in Resources */,
+				0603470E2BD8CB280062DE12 /* Poppins-Bold.ttf in Resources */,
+				0603470C2BD8CB280062DE12 /* Inter-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		060346D82BD8BA740062DE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060347102BD8CC1E0062DE12 /* CustomFont.swift in Sources */,
+				060347052BD8C5530062DE12 /* Course.swift in Sources */,
+				060347212BD90CA30062DE12 /* CourseCardView.swift in Sources */,
+				060346E22BD8BA740062DE12 /* HomeView.swift in Sources */,
+				060347122BD8D1410062DE12 /* TabBar.swift in Sources */,
+				060346E02BD8BA740062DE12 /* CoppelApp.swift in Sources */,
+				0603471F2BD909280062DE12 /* TabBarItem.swift in Sources */,
+				067414962BD97E4000E934B2 /* Vertex.swift in Sources */,
+				060347142BD8D20D0062DE12 /* LoginView.swift in Sources */,
+				0603471D2BD900960062DE12 /* CourseView.swift in Sources */,
+				0603471A2BD8E36F0062DE12 /* ContentView.swift in Sources */,
+				067414942BD979B400E934B2 /* QuizView.swift in Sources */,
+				0674149C2BD98F7A00E934B2 /* Habilidad.swift in Sources */,
+				060347072BD8CA010062DE12 /* HCardView.swift in Sources */,
+				0674149A2BD98CFB00E934B2 /* VCardView.swift in Sources */,
+				060347182BD8DA8B0062DE12 /* CoursesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		060346E82BD8BA750062DE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		060346E92BD8BA750062DE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		060346EB2BD8BA750062DE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coppel/Preview Content\"";
+				DEVELOPMENT_TEAM = N5TT4NSH69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Coppel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackathon2024.Coppel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		060346EC2BD8BA750062DE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coppel/Preview Content\"";
+				DEVELOPMENT_TEAM = N5TT4NSH69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Coppel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackathon2024.Coppel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		060346D72BD8BA740062DE12 /* Build configuration list for PBXProject "Coppel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060346E82BD8BA750062DE12 /* Debug */,
+				060346E92BD8BA750062DE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		060346EA2BD8BA750062DE12 /* Build configuration list for PBXNativeTarget "Coppel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060346EB2BD8BA750062DE12 /* Debug */,
+				060346EC2BD8BA750062DE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		060346ED2BD8C1AB0062DE12 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		060346EE2BD8C1AC0062DE12 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 060346ED2BD8C1AB0062DE12 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 060346D42BD8BA740062DE12 /* Project object */;
+}
